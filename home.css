@@ -1,0 +1,699 @@
+/* https://i.pinimg.com/736x/09/52/e9/0952e9d8c44d9e1fcc1e9b6da06ca49c.jpg */
+*{
+    margin: 0px;
+    padding: 0%;
+    font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.nav{
+    height: 200px;
+    width: 100%;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+    width: 100%;
+  }
+  
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:rgb(40, 19, 5);
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(40, 19, 5);
+    color: burlywood;
+  }
+  
+.homepage{
+    margin-top: -10px;
+    height: 105vh;
+    width: 100%;
+    background-color: burlywood; 
+    background-image: url(https://images.unsplash.com/photo-1506619216599-9d16d0903dfd?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGElMjBjdXAlMjBvZiUyMGNvZmZlZXxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+
+}
+
+.homepage h1{
+    color:rgb(40, 19, 5);
+    font-size:100px;
+    margin-left: 10px;
+    color:rgb(40, 19, 5) ;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.homepage h2{
+    margin-left: 10px;
+    color:rgb(40, 19, 5);
+    font-family: "Playwrite HR Lijeva", cursive;
+    font-optical-sizing: auto;
+}
+
+.aboutus{
+    height: 100vh;
+    width: 100%;
+    background-color:whitesmoke;
+    background-size: cover;
+   
+    
+}
+.aboutus img{
+    margin-top: 65px;
+    margin-left: 250px;
+}
+.aboutus img:hover{
+    box-shadow: 0px 0px 6px 9px rgb(40, 19, 5) ;
+}
+ .aboutus .card1{
+    height: 570px;
+    width: 500px;
+    margin-left: 790px;
+    margin-top:-600px;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzEQ2hTxdHN05tcrFRtqIgLWxnCBYJ0DamBA&s); */
+    background-size: cover;
+    position: relative;
+    font-size: 20px;
+    padding: 10px; 
+    border: 1px solid rgb(40, 19, 5);
+    
+}
+
+/* .aboutus  .card1:hover{
+    box-shadow: 0px 0px 6px 9px goldenrod;
+} */
+.aboutus .card1 h1{
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    color: rgb(53, 39, 39);
+    
+
+}
+.aboutus .card1 h2{
+    color: burlywood;
+    font-family: "Playwrite HR Lijeva", cursive;
+    font-weight: 300;
+    font-style: italic;
+    font-optical-sizing: auto;
+    font-size: 18px;
+}
+.aboutus .card1 p{
+    /* font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: rgb(69, 68, 68);
+    text-align: justify; */
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+}
+.aboutus button{
+    
+  background-color: whitesmoke;
+  height: 45px;
+  width: 120px;
+  color: burlywood;
+  border: 2px solid burlywood;
+  border-radius: 10px;
+}
+.outlets{
+    height:105vh;
+    width: 100%;
+    /* background-color: rgb(239, 211, 175); */
+    background-color:whitesmoke;
+    padding: 0;
+    margin: 0;
+}
+
+.outlets h1{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-optical-sizing: auto;
+    color: rgb(40, 19, 5);
+   
+}
+.outlets h2{
+  
+    font-family: "Playwrite HR Lijeva", cursive;
+    font-weight: 300;
+    font-style: italic;
+    font-optical-sizing: auto;
+    color:burlywood;
+    font-size: 18px;
+}
+
+.Bakery{
+    height: 100vh;
+    width: 100%;
+    background-color:  whitesmoke;
+}
+.Bakery h1{
+    font-size: 40px;
+    font-weight: 500;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-optical-sizing: auto;
+    color: rgb(40, 19, 5);
+     
+}
+.Bakery h2{
+    /* font-family: Georgia, 'Times New Roman', Times, serif;
+    font-optical-sizing: auto;
+    color: rgb(83, 81, 81);
+    font-size: 20px; */
+    font-family: "Playwrite HR Lijeva", cursive;
+    font-weight: 300;
+    font-style: italic;
+    font-optical-sizing: auto;
+    color:burlywood;
+    font-size: 18px;
+}
+
+.Bakery video{
+ margin-left: 100px;   
+ margin-top: -80px;
+}
+.Bakery .card1{
+    height: 350px;
+    width: 450px;
+    margin-left: 960px;
+    margin-top:-590px;
+    background-color: whitesmoke;
+    background-size: cover;
+    position: absolute;
+    font-size: 20px;
+    padding: 20px;
+    /* border: 1px solid rgb(40, 19, 5); */
+    /* animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border: 1px solid goldenrod; */
+  
+}
+/* @keyframes bounce {
+    0%{
+        transform:translateY(0);
+    }
+    100%{
+        transform: translateY(80px);
+    }
+} */
+.Bakery .card1 h1{
+    font-size: 40px;
+    font-weight: 500;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-optical-sizing: auto;
+    color:rgb(40, 19, 5);
+     
+}
+
+.Bakery .card1 h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-optical-sizing: auto;
+    color:burlywood;
+    font-size: 20px;
+}
+.Bakery .card1 p{
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    text-align: justify;
+}
+.Bakery button{
+    
+  background-color: burlywood;
+  height: 45px;
+  width: 120px;
+  color:rgb(40, 19, 5) ;
+  border: 2px solid burlywood;
+  border-radius: 10px;
+}
+.Bakery button:hover{
+    background-color: rgb(40, 19, 5);
+    color: burlywood;
+}
+
+.Bakery2{
+    height: 10vh;
+    height: 100%;
+    background-color: whitesmoke;
+   
+}
+.Bakery2 video{
+    margin-left: 555px;
+    margin-top: -50px;
+}
+.Bakery2 .card1{
+    height: 350px;
+    width: 450px;
+    margin-left: 100px;
+    margin-top:-630px;
+    /* background-image: url(https://media.istockphoto.com/id/1045681578/photo/wood-texture-background.jpg?s=612x612&w=0&k=20&c=ULknV4dhEBMXZDkkuzyP4az9-e_gQP2AlFENPGh-Oxg=); */
+    background-color: whitesmoke;
+    position: absolute;
+    font-size: 20px;
+    padding: 20px;
+    /* animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border: 1px solid goldenrod; */
+}
+/* @keyframes bounce {
+    0%{
+        transform:translateY(0);
+    }
+    100%{
+        transform: translateY(80px);
+    }
+} */
+.Bakery2 .card1 h1{
+    font-size: 40px;
+    font-weight: 500;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-optical-sizing: auto;
+    color: rgb(40, 19, 5);
+}
+.Bakery2 .card1 h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-optical-sizing: auto;
+    color:burlywood;
+    font-size: 20px;
+}
+.Bakery2 .card1 p{
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    text-align: justify;
+}
+/* .Bakery2 .card1:hover{
+    box-shadow: 0px 0px 4px 5px goldenrod;
+} */
+.Bakery2 button{
+    
+  background-color: burlywood;
+  height: 45px;
+  width: 120px;
+  color:rgb(40, 19, 5) ;
+  border: 2px solid burlywood;
+  border-radius: 10px;
+}
+.Bakery2 button:hover{
+  background-color: rgb(40, 19, 5);
+  color: burlywood;
+}
+
+
+.Bakery3{
+    height: 10vh;
+    height: 100%;
+   background-color: whitesmoke;
+}
+.Bakery3 video{
+    margin-left: 100px;   
+    margin-top: -170px;
+}
+.Bakery3 .card1{
+    height: 350px;
+    width: 450px;
+    margin-left: 960px;
+    margin-top:-630px;
+    /* background-image: url(https://media.istockphoto.com/id/1045681578/photo/wood-texture-background.jpg?s=612x612&w=0&k=20&c=ULknV4dhEBMXZDkkuzyP4az9-e_gQP2AlFENPGh-Oxg=); */
+    position: absolute;
+    font-size: 20px;
+    padding: 20px;
+    /* animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border: 1px solid goldenrod; */
+}
+/* @keyframes bounce {
+    0%{
+        transform:translateY(0);
+    }
+    100%{
+        transform: translateY(80px);
+    }
+} */
+.Bakery3 .card1 h1{
+    font-size: 40px;
+    font-weight: 500;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-optical-sizing: auto;
+    color:rgb(40, 19, 5) ;
+}
+.Bakery3 .card1 h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-optical-sizing: auto;
+    color: burlywood;
+    font-size: 20px;
+}
+.Bakery3 .card1 p{
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    text-align: justify;
+}
+.Bakery3 button{
+    
+  background-color: burlywood;
+  height: 45px;
+  width: 120px;
+  color:rgb(40, 19, 5) ;
+  border: 2px solid burlywood;
+  border-radius: 10px;
+}
+.Bakery3 button:hover{
+  background-color: rgb(40, 19, 5);
+  color: burlywood;
+}
+.Bakery4{
+    height: 8vh;
+    height: 100%;
+    background-color: whitesmoke;
+   
+}
+.Bakery4 video{
+    margin-left: 555px;
+    margin-top: -150px;
+}
+.Bakery4 .card1{
+    height: 350px;
+    width: 450px;
+    margin-left: 100px;
+    margin-top:-630px;
+    background-color: whitesmoke;
+    position: absolute;
+    font-size: 20px;
+    padding: 20px;
+   
+}
+
+.Bakery4 .card1 h1{
+    font-size: 40px;
+    font-weight: 500;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-optical-sizing: auto;
+    color: rgb(40, 19, 5);
+}
+.Bakery4 .card1 h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-optical-sizing: auto;
+    color: burlywood;
+    font-size: 20px;
+}
+.Bakery4 .card1 p{
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.Bakery4 button{
+    
+  background-color: burlywood;
+  height: 45px;
+  width: 120px;
+  color:rgb(40, 19, 5) ;
+  border: 2px solid burlywood;
+  border-radius: 10px;
+}
+.Bakery4 button:hover{
+  background-color: rgb(40, 19, 5);
+  color: burlywood;
+}
+.our{
+    height: 80vh;
+    width: 100%;
+    /* background-color: black; */
+    background-color: rgb(40, 19, 5);
+}
+.our h1{
+    font-size: 40px;
+    font-weight: 500;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-optical-sizing: auto;
+    color:burlywood;
+    padding: 20px;
+    
+}
+.our h2{
+  color: burlywood;
+  font-family: "Playwrite HR Lijeva", cursive;
+  font-weight: 300;
+  font-style: italic;
+  font-optical-sizing: auto;
+  font-size: 18px;
+}
+.our img{
+    margin-left: 50px;
+    border: 10px solid white;
+   margin-top: 100px;
+}
+.find{
+    height: 60vh;
+    width: 100%;
+    background-image: url(https://t4.ftcdn.net/jpg/02/36/04/11/360_F_236041125_hC6yROeKBe5gRMdnq0jpVZpLTgpZdg1A.jpg);
+}
+
+* {
+    box-sizing: border-box;
+  }
+  .container h2{
+    font-size: 40px;
+    font-weight: 500;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-optical-sizing: auto;
+    color: burlywood;
+    padding: 20px;
+  }
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color:rgb(53, 42, 42);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color:burlywood ;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  :root {
+    --primary-color:rgb(40, 19, 5);
+    --secondary-color: #e8e8e8;
+    --text-dark: burlywood;
+    --text-light: #94a3b8;
+    --white: #ffffff;
+  }
+  .section__container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem 1rem;
+    text-align: center;
+    
+  }
+  
+  .section__container h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--primary-color);
+  }
+  
+  .section__container h1 {
+    position: relative;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+
+    color: var(--text-dark);
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-optical-sizing: auto;
+  }
+  
+  .section__container h1::after {
+    position: absolute;
+    content: "";
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 2px;
+    width: 5rem;
+    background-color: var(--primary-color);
+  }
+  
+  .section__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .section__card {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    padding: 5rem 2rem 2rem;
+    background-color: var(--white);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+  }
+  
+  .section__card::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    aspect-ratio: 1;
+    border-radius: 100%;
+    background-color: var(--primary-color);
+    z-index: -1;
+    transition: 0.5s;
+  }
+  
+  .section__card span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    font-size: 3rem;
+    color: var(--white);
+  }
+  
+  .section__card h4 {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    transition: 0.3s;
+  }
+  
+  .section__card p {
+    margin-bottom: 2rem;
+    color: var(--text-light);
+    transition: 0.3s;
+  }
+  
+  .section__card img {
+    margin-bottom: 1rem;
+    max-width: 100px;
+    border-radius: 100%;
+    border: 2px solid var(--primary-color);
+    transition: 0.3s;
+  }
+  
+  .section__card h5 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    transition: 0.3s;
+  }
+  
+  .section__card h6 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-light);
+    transition: 0.3s;
+  }
+  
+  .section__card:hover::before {
+    width: 400%;
+  }
+  
+  .section__card:hover :is(h4, h5) {
+    color: var(--white);
+  }
+  
+  .section__card:hover :is(p, h6) {
+    color: var(--secondary-color);
+  }
+  
+  .section__card:hover img {
+    border-color: var(--white);
+  }
+  .footer{
+    height: 30vh;
+    width: 100%;
+    background-color: rgb(40, 19, 5);
+  }
+  .footer h1{
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-optical-sizing: auto;
+    color: burlywood;
+  }
+  .footer h3{
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-optical-sizing: auto;
+    color: burlywood;
+  }
+  

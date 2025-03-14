@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./g.css">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+</head>
+<body>
+  <header>
+    <div class="nav">
+
+      <a href="#" class="logo">
+        <ion-icon name="fast-food"></ion-icon>
+         Cafe Dreamy Treats
+      </a>
+
+      <div class="box">
+        <div class="cart-count">0</div>
+        <ion-icon name="cart"  id="cart-icon" ></ion-icon>
+      </div>
+
+      <div class="cart">
+        <div class="cart-title">Cart Items</div>
+        <div class="cart-content">
+
+        
+        </div>
+        
+      <div class="total">
+        <div class="total-title">Total</div>
+        <div class="total-price">Rs.0</div>
+      </div>
+
+     
+      
+         <button class="btn-buy" onclick="placeOrder()">Place Order</button><br><br>
+         <a href="./Payment.html"><button class="payment">Make Payment</button></a>
+
+
+      <ion-icon name="close" id="cart-close"></ion-icon>
+
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <h2 class="title">Explore our delicious dishes</h2>
+    <div class="shop-content">
+
+      
+      <div class="food-box">
+        <div class="pic"><img src="./ba1.jpg" class="food-img"></div>
+        <h2 class="food-title">Chocolate Pastry</h2>
+        <span class="food-price">Rs.100</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic"><img src="./co1.jpg" class="food-img"></div>
+        <h2 class="food-title">Coconut Roll</h2>
+        <span class="food-price">Rs.130 </span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+      <div class="food-box">
+        <div class="pic"><img src="./co2.jpg" class="food-img"></div>
+        <h2 class="food-title">Bun Maska Chai</h2>
+        <span class="food-price">Rs.50</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+      <div class="food-box">
+        <div class="pic"><img src="ba4.jpg" class="food-img"></div>
+        <h2 class="food-title">Mawa Cake</h2>
+        <span class="food-price">Rs.70</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+      <div class="food-box">
+        <div class="pic"><img src="./ba6.avif" class="food-img"></div>
+        <h2 class="food-title">Donuts</h2>
+        <span class="food-price">Rs.100</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+      <div class="food-box">
+        <div class="pic"><img src="./cara1.jpg" class="food-img"></div>
+        <h2 class="food-title">Caramel Custard</h2>
+        <span class="food-price">Rs.130</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+  
+      <div class="food-box">
+        <div class="pic"><img src="./co3.jpg" class="food-img"></div>
+        <h2 class="food-title">Cream Roll</h2>
+        <span class="food-price">Rs.70</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+  
+      <div class="food-box">
+        <div class="pic"><img src="./pa1.jpg" class="food-img"></div>
+        <h2 class="food-title">Chocolate Pastry</h2>
+        <span class="food-price">Rs.100</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+      <div class="food-box">
+        <div class="pic"><img src="./pa2.jpg" class="food-img"></div>
+        <h2 class="food-title">Choco Truffle Pastry</h2>
+        <span class="food-price">Rs.100</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic"><img src="./pa3.jpg" class="food-img"></div>
+        <h2 class="food-title">Butter  Pastry</h2>
+        <span class="food-price">Rs.100</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic"><img src="./pa4.jpg" class="food-img"></div>
+        <h2 class="food-title">Choco Butter Pastry</h2>
+        <span class="food-price">Rs.100</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic"><img src="./pa5.jpg" class="food-img"></div>
+        <h2 class="food-title">Pineaaple Pastry</h2>
+        <span class="food-price">Rs.100</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      
+      <div class="food-box">
+        <div class="pic"><img src="./pan1.jpg" class="food-img"></div>
+        <h2 class="food-title">Strawberry butter Pastry</h2>
+        <span class="food-price">Rs.100</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic"><img src="./pan2.jpg" class="food-img"></div>
+        <h2 class="food-title">Coconut Pastry</h2>
+        <span class="food-price">Rs.100</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic"><img src="./pa6.jpg" class="food-img"></div>
+        <h2 class="food-title">Strawberry Pastry</h2>
+        <span class="food-price">Rs.100</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic"><img src="./be1.jpg" class="food-img"></div>
+        <h2 class="food-title">Lemon Tea</h2>
+        <span class="food-price">Rs.50</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic"><img src="./be2.jpg" class="food-img"></div>
+        <h2 class="food-title">Orange Juice</h2>
+        <span class="food-price">Rs.50</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic"><img src="./be3.jpg" class="food-img"></div>
+        <h2 class="food-title">Cappuccino Coffe</h2>
+        <span class="food-price">Rs.140</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+       
+      <div class="food-box">
+        <div class="pic"><img src="./be4.jpg" class="food-img"></div>
+        <h2 class="food-title">Watermelon shake</h2>
+        <span class="food-price">Rs.70</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic"><img src="./be5.avif" class="food-img"></div>
+        <h2 class="food-title">Green Tea</h2>
+        <span class="food-price">Rs.50</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic"><img src="./be6.jpg" class="food-img"></div>
+        <h2 class="food-title">Lemon Water</h2>
+        <span class="food-price">Rs.20</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      
+      <div class="food-box">
+        <div class="pic"><img src="./sa1.jpg" class="food-img"></div>
+        <h2 class="food-title">Club Sandwitch</h2>
+        <span class="food-price">Rs.110</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic"><img src="./sa2.jpg" class="food-img"></div>
+        <h2 class="food-title">French Fries</h2>
+        <span class="food-price">Rs.120</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic"><img src="./bu1.jpg" class="food-img"></div>
+        <h2 class="food-title"> Veg Burger</h2>
+        <span class="food-price">Rs.75</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+    </div>
+  </div>
+  <!-- <center>   <a href="./home.html"><button class="homee">BACK TO HOME</button></a></center> -->
+  <script src="g.js"></script>
+</body>
+</html>

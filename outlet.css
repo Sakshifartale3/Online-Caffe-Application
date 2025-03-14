@@ -1,0 +1,136 @@
+*{
+    margin: auto;
+    padding: 0%;
+}
+
+
+.main{
+    background-color: rgb(238, 219, 193);
+}
+.card h1{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-optical-sizing: auto;
+    color: rgb(40, 19, 5);
+}
+.card1{
+    height: 400px;
+    width: 300px;
+    padding: 0 30px 20px 30px;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left:120px;
+    background-color: whitesmoke;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmprsmtmhigM504kYll595GA-a75Sf4SsZu_yckj-iuZh9tud4iw1ueSM22SEtkEMrkCI&usqp=CAU); */
+}
+.card2{
+    height: 400px;
+    width: 300px;
+    padding: 0 30px 20px 30px;
+    border: 1px solid black;
+    margin-top: -425px;
+    margin-left: 560px;
+    background-color:whitesmoke;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmprsmtmhigM504kYll595GA-a75Sf4SsZu_yckj-iuZh9tud4iw1ueSM22SEtkEMrkCI&usqp=CAU); */
+}
+button{
+    padding: 10px 70px 10px 7px;
+    margin-top: 30px;
+    margin-left: 45px;
+    background-color:rgb(40, 19, 5);
+    padding-left: 55px;
+    color:burlywood ;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+button:hover{
+   background-color: burlywood;
+   color: rgb(40, 19, 5);
+}
+.card3{
+    height: 400px;
+    width: 300px;
+    padding: 0 30px 20px 30px;
+    border: 1px solid black;
+    margin-top: -425px;
+    margin-left: 1000px;
+    background-color: whitesmoke;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmprsmtmhigM504kYll595GA-a75Sf4SsZu_yckj-iuZh9tud4iw1ueSM22SEtkEMrkCI&usqp=CAU); */
+}
+
+.card4{
+    height: 400px;
+    width: 300px;
+    padding: 0 30px 20px 30px;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left: 120px;
+    background-color: whitesmoke;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmprsmtmhigM504kYll595GA-a75Sf4SsZu_yckj-iuZh9tud4iw1ueSM22SEtkEMrkCI&usqp=CAU); */
+}
+.card5{
+    height: 400px;
+    width: 300px;
+    padding: 0 30px 20px 30px;
+    border: 1px solid black;
+    margin-top: -425px;
+    margin-left: 560px;
+    background-color: whitesmoke;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmprsmtmhigM504kYll595GA-a75Sf4SsZu_yckj-iuZh9tud4iw1ueSM22SEtkEMrkCI&usqp=CAU); */
+}
+.card6{
+    height: 400px;
+    width: 300px;
+    padding: 0 30px 20px 30px;
+    border: 1px solid black;
+    margin-top: -425px;
+    margin-left: 1000px;
+    background-color: whitesmoke;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmprsmtmhigM504kYll595GA-a75Sf4SsZu_yckj-iuZh9tud4iw1ueSM22SEtkEMrkCI&usqp=CAU); */
+}
+.card7{
+    height: 400px;
+    width: 300px;
+    padding: 0 30px 20px 30px;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left: 120px;
+    background-color: whitesmoke;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmprsmtmhigM504kYll595GA-a75Sf4SsZu_yckj-iuZh9tud4iw1ueSM22SEtkEMrkCI&usqp=CAU); */
+}
+.card8{
+    height: 400px;
+    width: 300px;
+    padding: 0 30px 20px 30px;
+    border: 1px solid black;
+    margin-top: -425px;
+    margin-left: 560px;
+    background-color: whitesmoke;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmprsmtmhigM504kYll595GA-a75Sf4SsZu_yckj-iuZh9tud4iw1ueSM22SEtkEMrkCI&usqp=CAU); */
+}
+.card9{
+    height: 400px;
+    width: 300px;
+    padding: 0 30px 20px 30px;
+    border: 1px solid black;
+    margin-top: -425px;
+    margin-left: 1000px;
+    background-color: whitesmoke;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmprsmtmhigM504kYll595GA-a75Sf4SsZu_yckj-iuZh9tud4iw1ueSM22SEtkEMrkCI&usqp=CAU); */
+}
+ .homee button{
+    height: 40px;
+    width: 150px;
+    background-color: aliceblue;
+    color: goldenrod;
+    font-family: "Roboto", serif;
+    border: 3px solid goldenrod;
+    border-radius: 20px;
+
+}
+.card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8,.card9 h1{
+    color:  rgb(40, 19, 5);
+}
+
+
